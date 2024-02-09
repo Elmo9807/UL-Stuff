@@ -10,12 +10,11 @@ def multiply(a, b):
 def divide (a, b):
     return a / b
 
-inp = input("Welcome, please choose an operation to perform:")
+print("Please choose an operation: ")
 print("A. Add")
 print("B. Subtract")
 print("C. Multiply")
 print("D. Divide")
-print('You have chosen:',inp)
 
 continue_calculating = True
 while continue_calculating is True:
